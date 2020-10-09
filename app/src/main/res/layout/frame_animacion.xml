@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_black"
+        android:text="Animación"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/btnvolv"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/volver" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/scoob"
+                android:layout_marginTop="10dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/scooby" />
+
+            <ImageView
+                android:id="@+id/bobEsponja"
+                android:layout_marginTop="40dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bob_esponja" />
+
+            <ImageView
+                android:id="@+id/klara"
+                android:layout_marginTop="40dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/klara" />
+
+            <ImageView
+                android:id="@+id/minions"
+                android:layout_marginTop="40dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/minions" />
+
+            <ImageView
+                android:id="@+id/trolls"
+                android:layout_marginTop="40dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/trolls" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

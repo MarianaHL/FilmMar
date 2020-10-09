@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/aventura"
+        android:title="Aventura"
+        android:icon="@drawable/ic_marcador"/>
+
+    <item android:id="@+id/drama"
+        android:title="Drama"
+        android:icon="@drawable/ic_marcador"/>
+
+    <item android:id="@+id/miedo"
+        android:title="Miedo"
+        android:icon="@drawable/ic_marcador"/>
+
+</menu>

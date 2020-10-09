@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/accion"
+        android:title="Acción"
+        />
+
+    <item android:id="@+id/cficcion"
+        android:title="Ciencia ficción"
+        android:icon="@drawable/ic_jugar"/>
+
+    <item android:id="@+id/comedia"
+        android:title="Comedia"
+        android:icon="@drawable/ic_marcador"/>
+
+</menu>

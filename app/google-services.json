@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "260029782632",
+    "firebase_url": "https://filmmar-f81e8.firebaseio.com",
+    "project_id": "filmmar-f81e8",
+    "storage_bucket": "filmmar-f81e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260029782632:android:ecb2109acd53deaac679dd",
+        "android_client_info": {
+          "package_name": "com.example.filmmar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260029782632-ftitma8qgc6bm65utspjss43ig02p4v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.filmmar",
+            "certificate_hash": "11b8703c7b5ab390119fcdf906f945366e60662a"
+          }
+        },
+        {
+          "client_id": "260029782632-g51j68n1p59a4cmofsit1mi666cdd6m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLVlbaIDujeU29eky9gtWb7nEKyLO9xMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260029782632-g51j68n1p59a4cmofsit1mi666cdd6m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

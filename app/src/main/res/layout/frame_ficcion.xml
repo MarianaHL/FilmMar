@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Ciencia ficción"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/btnvolv"
+        android:layout_width="88dp"
+        android:layout_height="60dp"
+        android:src="@drawable/volver"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/mutantes"
+                android:layout_marginTop="10dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/nuevos_mutantes" />
+
+            <ImageView
+                android:id="@+id/hombreInvisible"
+                android:layout_marginTop="40dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/hombre_invisible" />
+
+            <ImageView
+                android:id="@+id/venom"
+                android:layout_marginTop="40dp"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/venom" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
